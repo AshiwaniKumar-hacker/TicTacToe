@@ -26,6 +26,7 @@ const resetGame=()=>{
 }
 
 
+
 const enableBtns = ()=>{
     for(let box of boxes){
         box.disabled=false;
@@ -67,7 +68,7 @@ const gameDraw = () => {
     disableBoxes();
    
   
-  };
+};
 
 const disableBtns = ()=>{
     for(let box of boxes){
